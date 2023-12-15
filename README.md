@@ -1,4 +1,13 @@
 # Deep-Learning-for-Orthodontic-Photos
+This Repository refers to the Final Project of the course Statistical Learning (SL) at University Sapienza of Rome 2022/2023.
+
+## Group members:
+* [Paolo Leoni](https://github.com/Sottix99)
+* [Francesco Morosini](https://github.com/Giulia-Luciani)
+* [Andrea Protani](https://github.com/Sottix99)
+* [Alessandro Sottile](https://github.com/Sottix99)
+* [Ramona Tarantino](https://github.com/Sottix99)
+  
 ## Abstract
 The objective of this study is to explore Machine and Deep Learning techniques for
 the classification of orthodontic images according to the correct dental alignment
