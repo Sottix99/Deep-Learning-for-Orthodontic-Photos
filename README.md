@@ -129,7 +129,7 @@ arches, they explicitly require only one to be worn)
 
 <div style="text-align:center">
  <p align="center">
-  <img src='img/curves.png'/>
+  <img src='img/curvers.png'/>
   
   </p>
   <p align="center">
