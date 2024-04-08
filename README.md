@@ -136,7 +136,7 @@ arches, they explicitly require only one to be worn)
   </p>
 </div>
 
-Now wanting to investigate the results of our models, we can refer to Figure 2, it reports the learning
+Now wanting to investigate the results of our models, we can refer to the figure, it reports the learning
 curves of a model and the confusion matrix of the results (they were generally similar for all models).
 The curves show how the models are unable to learn as the epochs pass, in fact the loss and accuracy only improve on the train set while they remain fairly constant on the test. The confusion matrix
 instead shows how the models have particular difficulty in recognizing images of the "Soft" class
