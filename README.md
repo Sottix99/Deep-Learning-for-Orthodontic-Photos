@@ -76,6 +76,14 @@ Finally, a graphical interface was created using the [Gradio](https://www.gradio
 to simulate the photographic pre-evaluation process (limited to frontal images only)
 
 ## Results
+|Model          |Single         |Double |Accuracy|Adjacent|
+| ------------- |:-------------:| -----:|-------:|-------:|
+| CNN | Original Data | 0.613 | 0.660  | 0.659  | 
+| CNN + Augmentation | Augmented Data| 0.625 | 0.648  | 0.644  | 
+| CNN + Early Exit| Original Data | 0.618 | 0.657  | 0.657  | 
+| CNN + Early Exit + Augmentation| Augmented Data| 0.617 | 0.659  | 0.659  | 
+| MobilenetV2| Augmented Data| 0.617 | 0.659  | 0.659  | 
+
 The simple "Accuracy" was used to evaluate all created models. To have comparable results between
 the different models, a train set and a test set with proportions 85-15 were created a priori, the models
 were also trained with the same number of epochs: 30.
