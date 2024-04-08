@@ -76,13 +76,27 @@ Finally, a graphical interface was created using the [Gradio](https://www.gradio
 to simulate the photographic pre-evaluation process (limited to frontal images only)
 
 ## Results
-|Model          |Single         |Double |Accuracy|Adjacent|
+|Model          |Single         |Double |Adjacent|
 | ------------- |:-------------:| -----:|-------:|-------:|
-| CNN | Original Data | 0.613 | 0.660  | 0.659  | 
-| CNN + Augmentation | Augmented Data| 0.625 | 0.648  | 0.644  | 
-| CNN + Early Exit| Original Data | 0.618 | 0.657  | 0.657  | 
-| CNN + Early Exit + Augmentation| Augmented Data| 0.617 | 0.659  | 0.659  | 
-| MobilenetV2| Augmented Data| 0.617 | 0.659  | 0.659  | 
+| CNN  |                          32.40 | 58.00 |60.00  | 
+| CNN + Augmentation |            32.12|57.50 |57.50  |
+| CNN + Early Exit|                 31.00 | 48.30 | 55.00  | 
+| CNN + Early Exit + Augmentation| 28.50| 54.00 | 53.80  | 
+| MobilenetV2|                     36.60| 63.00 | 59.00  |
+| VGG16 |                        36.03 | 49.72 |49.72  | 
+| VGG19 |                          35.20| 51.67 | 50.27  | 
+| DenseNet121|                      35.47 | 50.27 | 50.55  | 
+| Inception|                       36.60| 50.11 | 50.81  |
+| NASnet5|                         37.06| 50.35 | 50.38  |
+| ViT |                           28.85 | 55.22 | -  | 
+| PyTorch - VIT_B_16 |            37.36| 62.36 | -  |
+| Google - vit-base-patch16-224|    39.39 | 62.85 | 52.23  | 
+| Swin Transformern|               28.85| 55.22 | -  | 
+| Microsoft - swin-tiny-patch4-window7-224|                     39.94| 68.16 |53.35  |  
+| Facebook - convnextv2-tiny-1k-224|                             39.94| 68.72 | 53.63  | 
+| ViT + augmentation + all angles ensembled|                     29.00| 53.00 | -  | 
+| Human technicians | - | -| ≈ 65 | 
+
 
 The simple "Accuracy" was used to evaluate all created models. To have comparable results between
 the different models, a train set and a test set with proportions 85-15 were created a priori, the models
