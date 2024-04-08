@@ -77,7 +77,7 @@ to simulate the photographic pre-evaluation process (limited to frontal images o
 
 ## Results
 |Model          |Single         |Double |Adjacent|
-| ------------- |:-------------:| -----:|-------:|-------:|
+| ------------- |:-------------:| -----:|-------:|
 | CNN  |                          32.40 | 58.00 |60.00  | 
 | CNN + Augmentation |            32.12|57.50 |57.50  |
 | CNN + Early Exit|                 31.00 | 48.30 | 55.00  | 
