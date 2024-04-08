@@ -4,6 +4,15 @@
 # Deep-Learning-for-Orthodontic-Photos
 This Repository refers to the Final Project of the course Statistical Learning (SL) at University Sapienza of Rome 2022/2023.
 
+<div style="text-align:center">
+ <p align="center">
+  <img src='img/images.png'/>
+  
+  </p>
+  <p align="center">
+  </p>
+</div>
+
 ## Group members:
 * [Paolo Leoni](https://github.com/Leoni1894985)
 * [Francesco Morosini](https://github.com/francescomorosini)
@@ -117,6 +126,15 @@ Correct prediction is very difficult due to several factors:
 * labeling of many photos inaccurate
 * particular requests from doctors (for example, even if the aligners should be worn in both
 arches, they explicitly require only one to be worn)
+
+<div style="text-align:center">
+ <p align="center">
+  <img src='img/curves.png'/>
+  
+  </p>
+  <p align="center">
+  </p>
+</div>
 
 Now wanting to investigate the results of our models, we can refer to Figure 2, it reports the learning
 curves of a model and the confusion matrix of the results (they were generally similar for all models).
