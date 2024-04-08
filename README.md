@@ -48,11 +48,12 @@ precise guidelines. To reduce the variability, different datasets were used, som
 with all angles and some containing only frontal images. The downside is that in this way the size of
 the dataset which was already not very large was further reduced.
 Problem 3: there are five treatments available:
-• Soft
-• Semi-Medium
-• Medium
-• Semi-Hard
-• Hard
+
+* Soft
+* Semi-Medium
+* Medium
+* Semi-Hard
+* Hard
 
 The classes are not all equally represented, in particular in the "Soft" class there are many fewer
 patients. The most present class is the "Medium".
@@ -88,11 +89,11 @@ prediction without constraints (e.g. Soft/Hard) which in real contexts makes no 
 restrict the choice to adjacent pairs the results do not reach the target value.
 Correct prediction is very difficult due to several factors:
 
-• limited number of images
-• poor image quality
-• heterogeneity of images within the same class
-• labeling of many photos inaccurate
-• particular requests from doctors (for example, even if the aligners should be worn in both
+* limited number of images
+* poor image quality
+* heterogeneity of images within the same class
+* labeling of many photos inaccurate
+* particular requests from doctors (for example, even if the aligners should be worn in both
 arches, they explicitly require only one to be worn)
 
 Now wanting to investigate the results of our models, we can refer to Figure 2, it reports the learning
