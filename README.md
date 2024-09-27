@@ -1,7 +1,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-# Deep-Learning-for-Orthodontic-Photos
+# Deep Learning for Orthodontic Photos
 This Repository refers to the Final Project of the course Statistical Learning (SL) at University Sapienza of Rome 2022/2023.
 
 <div style="text-align:center">
